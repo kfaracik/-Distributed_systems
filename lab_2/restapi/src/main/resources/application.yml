@@ -1,0 +1,22 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/student
+    username: postgres
+    password: krzys452
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+        format_sql: 'true'
+    hibernate:
+      ddl-auto: create-drop
+    show-sql: 'true'
+server:
+  error:
+    include-message: always
+twilio:
+  account_sid: ACaa93f04360d2ed31d68a62f573f281b7
+  auth_token: 3227f7af04aaddcd5cb8518fb7bf3abe
+  trial_number: +18592513523
+rapid_api:
+  rapidapi-key: 58ece491c6msh0b655eeeb5bb459p1227cfjsn8acdb497a790
